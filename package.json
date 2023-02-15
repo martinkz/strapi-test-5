@@ -1,0 +1,30 @@
+{
+  "name": "strapi-test-5",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "node node_modules/@strapi/strapi/bin/strapi.js start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^2.0.3",
+    "@strapi/plugin-i18n": "4.6.1",
+    "@strapi/plugin-users-permissions": "4.6.1",
+    "@strapi/strapi": "4.6.1",
+    "mysql": "2.18.1"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "c1f625f4-7c8b-4f2d-a4bb-bd194c621dee"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
