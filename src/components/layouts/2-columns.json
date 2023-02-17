@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_layouts_2_columns",
+  "info": {
+    "displayName": "2 columns",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "boolean"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

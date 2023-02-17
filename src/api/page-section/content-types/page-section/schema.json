@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "page_sections",
+  "info": {
+    "singularName": "page-section",
+    "pluralName": "page-sections",
+    "displayName": "Page Section",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Section": {
+      "type": "dynamiczone",
+      "components": [
+        "layouts.2-columns",
+        "sections.client",
+        "sections.section",
+        "layouts.1-column"
+      ]
+    }
+  }
+}

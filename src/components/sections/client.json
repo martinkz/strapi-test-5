@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_sections_clients",
+  "info": {
+    "displayName": "Client"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "customField",
+      "options": {
+        "preset": "blockBaloon"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

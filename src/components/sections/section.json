@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_section_sections",
+  "info": {
+    "displayName": "Intro",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "copy": {
+      "type": "customField",
+      "options": {
+        "preset": "blockBaloon"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_layouts_1_columns",
+  "info": {
+    "displayName": "1 column"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "date": {
+      "type": "datetime"
+    }
+  }
+}
